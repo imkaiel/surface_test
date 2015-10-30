@@ -1,0 +1,186 @@
+@-moz-viewport {
+  width: device-width;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+@-webkit-viewport {
+  width: device-width;
+}
+
+@viewport {
+  width: device-width;
+}
+
+html {
+  font-size: 16px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #373a3c;
+  background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .5rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3 {
+  margin-bottom: .5rem;
+}
+
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-bottom: .5rem;
+}
+
+h1, .h1 {
+  font-size: 2.5rem;
+}
+
+h2, .h2 {
+  font-size: 2rem;
+}
+
+h3, .h3 {
+  font-size: 1.75rem;
+}
+
+h4, .h4 {
+  font-size: 1.5rem;
+}
+
+h5, .h5 {
+  font-size: 1.25rem;
+}
+
+h6, .h6 {
+  font-size: 1rem;
+}
+/*
+.row {
+  margin-bottom: 20px;
+}
+.row .row {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+[class*="col-"] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1px solid rgba(0,0,0,.2);
+}
+*/
+
+article.article-entry {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+article.article-entry .m-standard { 
+}
+
+.m-standard .teaser-img {
+    margin-bottom: 25px;
+}
+
+.m-standard .teaser-img a.snapshot {
+    line-height: 0;
+    display: block;
+}   
+
+.m-standard .teaser-img a.snapshot > img {
+    width: 100%;
+}
+
+.m-standard .entry-meta {
+    margin-bottom: 25px;
+    padding: 0 0 20px;
+    position: relative;
+}
+
+.m-standard .entry-meta .meta-header span.meta-category {
+    margin-right: 2px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.m-standard .entry-meta .meta-header span.meta-seperator {
+    font-size: 8px;
+    vertical-align: middle;
+}
+
+.m-standard .entry-meta .meta-header span.meta-time {
+    padding-left: 2px;
+}
+
+.m-standard .entry-meta .meta-header,
+.m-standard .entry-meta .meta-footer {
+    margin-top: 2%;
+    color: #a8a8a8;
+    font-size: 13px;
+}
+
+.m-standard .entry-meta .meta-title > a > h3 {
+    margin: 2% 0;
+    font-size: 1.44em;
+}
+
+.m-standard .entry-meta .meta-title > a > .article-headline {
+    color: #333;
+    letter-spacing: -1px;
+}
+
+@media only screen and (min-width : 992px) {
+    .m-standard .teaser-img {
+        margin-bottom: 25px;
+    }
+
+    .m-standard .entry-meta {
+        margin-bottom: 25px;
+        padding: 0 0 50px;
+        position: relative;
+    }
+
+    .m-standard .entry-meta .meta-header,
+    .m-standard .entry-meta .meta-footer {
+        margin-top: 8px;
+        color: #a8a8a8;
+        font-size: 15px;
+    }
+
+    .m-standard .entry-meta .meta-title > a > h3 {
+        margin: 8px 0;
+        font-size: 1.75rem;
+    }
+
+    .m-standard .entry-meta .meta-title > a > .article-headline {
+        color: #333;
+        letter-spacing: -1px;
+    }
+}
+article.article-entry .m-block {
+    
+}
