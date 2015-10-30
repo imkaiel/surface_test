@@ -177,11 +177,6 @@ article.article-entry .m-standard {
         margin: 8px 0;
         font-size: 1.75rem;
     }
-
-    .m-standard .entry-meta .meta-title > a > .article-headline {
-        color: #333;
-        letter-spacing: -1px;
-    }
 }
 article.article-entry .m-block {
     
