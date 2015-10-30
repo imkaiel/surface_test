@@ -141,7 +141,7 @@ article.article-entry .m-standard {
 .m-standard .entry-meta .meta-footer {
     margin-top: 2%;
     color: #a8a8a8;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .m-standard .entry-meta .meta-title > a > h3 {
@@ -168,8 +168,6 @@ article.article-entry .m-standard {
     .m-standard .entry-meta .meta-header,
     .m-standard .entry-meta .meta-footer {
         margin-top: 8px;
-        color: #a8a8a8;
-        font-size: 15px;
     }
 
     .m-standard .entry-meta .meta-title > a > h3 {
