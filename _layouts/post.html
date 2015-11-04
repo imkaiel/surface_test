@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<main class="container">
+    <section class="row">
+    </section>
+    
+    <section class="row">
+        <div class="col-lg-8">
+            <article class="article-post">
+                <header class="post-header">
+                    <h2 class="post-title">
+                        <a href="{{ page.url }}">
+                            {{ page.title }}
+                        </a>
+                    </h2>
+                    <p class="post-excerpt">{{ page.excerpt }}</p>
+                </header>
+                <section class="post-content">
+                    {{ content }}
+                </section>
+                <!-- <footer class="post-meta">
+                </footer> -->
+            </article>
+            
+            <ul class="pagination">
+                {% if page.previous %}
+                <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
+                {% else %}
+                <li class="prev disabled"><a>&larr; Previous</a></li>
+                {% endif %}
+                {% if page.next %}
+                <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
+                {% else %}
+                <li class="next disabled"><a>Next &rarr;</a>
+                {% endif %}
+            </ul>
+            
+            <!-- Author Box like: http://dailyreup.com/style/top-10-streetwear-websites-like-karmaloop/ -->
+            
+            <!-- Comments -->
+            
+            <!-- Related Posts -->
+        </div>
+    </section>
+</main>
